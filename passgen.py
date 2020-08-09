@@ -21,11 +21,11 @@ s2 = string.ascii_uppercase
 s3 = string.digits
 #s4 = string.punctuation
 
-l = int(input("Enter password length: "))
-n = int(input("Enter no. of passwords to generate: "))
-name = input("Enter text file name to store passwords: ")
+l = int(input("\nEnter password length: "))
+n = int(input("\nEnter no. of passwords to generate: "))
+name = input("\nEnter text file name to store passwords: ")
 name1 = name + ".txt"
-print("Saved passwords in: " + name1)
+print("\nSaved passwords in: " + name1 + "\n")
 
 s = []
 s.extend(list(s1))
