@@ -29,7 +29,8 @@ def get_exif(img):
 
 def get_labeled_exif(exif):
     if (not exif):
-        print("\n No Metadata found")
+        print("\n No Metadata found because Metadata has been stripped\n")
+	exit(0)
     labeled = {}
     for (key, val) in exif.items():
         labeled[TAGS.get(key)] = val
