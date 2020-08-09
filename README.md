@@ -6,7 +6,7 @@ Digital Forensics & Reconnaissance
 
 2. Run passgen.py to generate wordlist
 
-3. Run hashcrack.py to crack MD5, SHA-266, SHA-512 hashes
+3. Run hashcrack.py to crack MD5, SHA-256, SHA-512 hashes
 
 4. Run imgmetadata.py to extract metadata from image files
 
