@@ -24,14 +24,14 @@ audio = input("\nEnter audio filepath: ")
 
 
 metadata = audio_metadata.load(audio)
-print("\nRaw Metdata:\n", metadata,"\n\n")
+print("\nRaw Metdata:\n\n", metadata,"\n\n")
 
 atag = TinyTag.get(audio)
-print("Artist:\t", atag.albumartist,"\n")
-print("No. of channels:\t", atag.channels,"\n")
-print("Genre:\t", atag.genre,"\n")
+print("Artist:\t", atag.albumartist,"\n\n")
+print("No. of channels:\t", atag.channels,"\n\n")
+print("Genre:\t", atag.genre,"\n\n")
 
 aud = eyed3.load(audio)
-print("Album:\t", aud.tag.album,"\n")
+print("Album:\t", aud.tag.album,"\n\n")
 
 
