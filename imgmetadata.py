@@ -31,7 +31,7 @@ def get_labeled_exif(exif):
     if (not exif):
         print("\n No Metadata found because Metadata has been stripped !")
         print("\n Try another image!\n")
-	exit(0)
+        exit(0)
     labeled = {}
     for (key, val) in exif.items():
         labeled[TAGS.get(key)] = val
@@ -55,6 +55,7 @@ for tag_id in exifdata:
     if isinstance(data, bytes):
         data = data.decode()
     print(f"{tag:25}: {data}")
+
 
 
 
