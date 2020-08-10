@@ -13,7 +13,7 @@ try:
 	print (bcolors.OKGREEN + file1.read() + bcolors.ENDC)
 	file1.close()
 except IOError:
-	print('\nBanner File not found!')
+	print('Banner File not found!\n')
 
 
 s1 = string.ascii_lowercase
@@ -21,11 +21,12 @@ s2 = string.ascii_uppercase
 s3 = string.digits
 #s4 = string.punctuation
 
-l = int(input("\nEnter password length: "))
-n = int(input("\nEnter no. of passwords to generate: "))
-name = input("\nEnter text file name to store passwords: ")
+l = int(input("Enter password length:\n"))
+n = int(input("Enter no. of passwords to generate:\n"))
+name = input("Enter text file name to store passwords:\n")
 name1 = name + ".txt"
-print("\nSaved passwords in: " + name1 + "\n")
+print("Saved passwords in: " + name1)
+print("\n")
 
 s = []
 s.extend(list(s1))
