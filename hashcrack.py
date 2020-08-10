@@ -43,7 +43,7 @@ if (response == '1'):
         print("\nPlease modify your wordlist !")
 
 
-if (response == '2'):
+elif (response == '2'):
 
     flag = 0
     passhash = input("\nEnter SHA256 hash: ")
@@ -70,7 +70,7 @@ if (response == '2'):
         print("\nPlease modify your wordlist !")
 
 
-if (response == '3'):
+elif (response == '3'):
 
     flag = 0
     passhash = input("\nEnter SHA512 hash: ")
