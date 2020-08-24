@@ -2,7 +2,7 @@
 
 Disclaimer : [USE DEBIAN BASED OS FOR BEST RESULTS]
 
-Digital Forensics & Reconnaissance
+Digital Forensics & Reconnaissance :
 
 1. Install requirements.txt to install necessary packages [python3 -m pip install -r requirements.txt] 
 
