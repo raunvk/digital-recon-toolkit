@@ -1,6 +1,6 @@
 # digital-recon-toolkit
 
-Disclaimer : [USE DEBIAN BASED OS FOR BEST RESULTS]
+Disclaimer : [USE DEBIAN-BASED/DEBIAN-DERIVED OS FOR BEST RESULTS]
 
 Digital Forensics & Reconnaissance :
 
