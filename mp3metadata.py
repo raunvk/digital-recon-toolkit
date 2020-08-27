@@ -4,17 +4,15 @@ import eyed3
 import mutagen
 import tinytag
 from tinytag import TinyTag
+from colored import fg, bg, attr
 
-class bcolors:
-	OKGREEN = '\033[92m'
-	WARNING = '\033[93m'
-	FAIL = '\033[91m'
-	ENDC = '\033[0m'
+color = fg('green')
+reset = attr('reset')
 
 try:
 	file1 = open('mp3metadata.txt', 'r')
 	print(' ')
-	print (bcolors.OKGREEN + file1.read() + bcolors.ENDC)
+	print (color + file1.read() + reset)
 	file1.close()
 except IOError:
 	print('\nBanner File not found!')
@@ -33,5 +31,7 @@ print("Genre:\t", atag.genre,"\n\n")
 
 aud = eyed3.load(audio)
 print("Album:\t", aud.tag.album,"\n\n")
+
+
 
 
