@@ -5,17 +5,15 @@ import geopy.geocoders
 from PIL import Image
 from PIL.ExifTags import TAGS
 from geopy.geocoders import Here
+from colored import fg, bg, attr
 
-class bcolors:
-	OKGREEN = '\033[92m'
-	WARNING = '\033[93m'
-	FAIL = '\033[91m'
-	ENDC = '\033[0m'
+color = fg('green')
+reset = attr('reset')
 
 try:
 	file1 = open('imgmetadata.txt', 'r')
 	print(' ')
-	print (bcolors.OKGREEN + file1.read() + bcolors.ENDC)
+	print (color + file1.read() + reset)
 	file1.close()
 except IOError:
 	print('\nBanner File not found!')
@@ -55,6 +53,9 @@ for tag_id in exifdata:
     if isinstance(data, bytes):
         data = data.decode()
     print(f"{tag:25}: {data}")
+
+
+
 
 
 
