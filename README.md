@@ -1,4 +1,4 @@
-# digital-recon-toolkit
+# digital-recon-script
 
 Disclaimer : Use Unix-like OS for best results
 
