@@ -4,7 +4,7 @@
 
 **Requisite** : Make sure you have Python3 installed in your System
 
-**For Unix-like OS** :
+**For Debian-based OS** :
 
 1. Install requirements.txt to install necessary packages [**$ python3 -m pip install -r requirements.txt**] 
 
