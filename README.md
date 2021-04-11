@@ -2,7 +2,7 @@
 
 **Description** : Digital Forensics & Reconnaissance
 
-**Requisite** : Make sure you have Python3 installed in your System
+**Requisite** : Make sure you have Python3 and Pip installed in your System
 
 **How to Run (Linux)** :
 
