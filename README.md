@@ -1,6 +1,6 @@
 # digital-recon-toolkit
 
-**Description** : Digital Forensics & Reconnaissance
+**Description** : Digital Forensics & Reconnaissance Tools
 
 **Requisite** : Make sure you have Python3 and Pip installed in your System
 
