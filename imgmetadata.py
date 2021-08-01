@@ -11,7 +11,7 @@ color = fg('green')
 reset = attr('reset')
 
 try:
-	file1 = open('imgmetadata.txt', 'r')
+	file1 = open('imgmetadata-header.txt', 'r')
 	print(' ')
 	print (color + file1.read() + reset)
 	file1.close()
@@ -53,13 +53,3 @@ for tag_id in exifdata:
     if isinstance(data, bytes):
         data = data.decode()
     print(f"{tag:25}: {data}")
-
-
-
-
-
-
-
-
-
-
