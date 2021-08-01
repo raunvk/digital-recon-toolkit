@@ -6,7 +6,7 @@ color = fg('green')
 reset = attr('reset')
 
 try:
-	file1 = open('passgen.txt', 'r')
+	file1 = open('passgen-header.txt', 'r')
 	print(' ')
 	print (color + file1.read() + reset)
 	file1.close()
