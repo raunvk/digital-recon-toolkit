@@ -10,7 +10,7 @@ color = fg('green')
 reset = attr('reset')
 
 try:
-	file1 = open('mp3metadata.txt', 'r')
+	file1 = open('mp3metadata-header.txt', 'r')
 	print(' ')
 	print (color + file1.read() + reset)
 	file1.close()
@@ -31,7 +31,3 @@ print("Genre:\t", atag.genre,"\n\n")
 
 aud = eyed3.load(audio)
 print("Album:\t", aud.tag.album,"\n\n")
-
-
-
-
